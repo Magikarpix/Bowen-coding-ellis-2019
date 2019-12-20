@@ -22,15 +22,15 @@ function myHitOther(my1,my2){
 
 <input type=text value=0 READONLY id="myText01">
 
-<img id="myImg01" style="position:absolute; left:200; top:200; width:100; height:100; " />
-<img id="myImg02" style="position:absolute; left:400; top:200; width:100; height:100; " />
+<img id="Bouncy Slime 001.gif" style="position:absolute; left:200; top:200; width:100; height:100; " />
+<img id="Flame Pixel Art 001.png" style="position:absolute; left:400; top:200; width:100; height:100; " />
 
 
 <input type=button value="go Right"  onclick="{
-   document.getElementById('myImg01').style.left = 
-      parseInt(document.getElementById('myImg01').style.left) + 10
-   if ( myHitOther('myImg01','myImg02') ){
-      document.getElementById('myImg01').style.left = '20px'
+   document.getElementById('Bouncy Slime 001.gif').style.left = 
+      parseInt(document.getElementById('Bouncy Slime 001.gif').style.left) + 10
+   if ( myHitOther('Bouncy Slime 001.gif','Flame Pixel Art 001.png') ){
+      document.getElementById('Bouncy Slime 001.gif').style.left = '20px'
       document.getElementById('myText01').value = 1 +
       parseInt(document.getElementById('myText01').value)
      }
